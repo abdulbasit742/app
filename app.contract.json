@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "app",
+    "status": "discovery",
+    "summary": "The product purpose has not yet been defined.",
+    "owners": ["repository-owner"],
+    "targetUsers": ["to-be-defined"],
+    "successMetric": "to-be-defined"
+  },
+  "runtime": {
+    "kind": "undecided",
+    "language": "undecided",
+    "packageManager": "none",
+    "deploymentTarget": "undecided"
+  },
+  "data": {
+    "classification": "none",
+    "storesPersonalData": false,
+    "storesSecrets": false,
+    "retention": "none"
+  },
+  "integrations": [],
+  "constraints": {
+    "accessibility": "WCAG 2.2 AA",
+    "privacy": "data-minimization",
+    "reliability": "to-be-defined",
+    "paidServicesAllowed": false
+  },
+  "review": {
+    "lastReviewed": "2026-07-15",
+    "reviewBy": "2026-08-15"
+  }
+}
