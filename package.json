@@ -1,0 +1,14 @@
+{
+  "name": "app-bootstrap-contract",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "check": "node scripts/app-contract.mjs check",
+    "render": "node scripts/app-contract.mjs render",
+    "readiness": "node scripts/app-contract.mjs readiness",
+    "test": "node --test tests/*.test.mjs",
+    "ci": "npm test && npm run check"
+  }
+}
